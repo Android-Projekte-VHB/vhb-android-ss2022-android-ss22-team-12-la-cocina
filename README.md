@@ -32,6 +32,7 @@ Erst im Späteren Verlauf der Entwicklung entschieden wir uns Einkaufslisten hin
 
 - [_User Guide_ zur App](App.md)
 - [Das Team](Team.md)
-- [Link zum Trailer](https://youtu.be/Y3i6hqvNnAI)
+- [Link zur App Demo](https://youtu.be/Y3i6hqvNnAI)
 - [APK-Datei der fertigen Version](https://github.com/Android-Projekte-VHB/vhb-android-ss2022-android-ss22-team-12-la-cocina/blob/main/app-lacocina-final.apk)
+- [Finaler Release](https://github.com/Android-Projekte-VHB/vhb-android-ss2022-android-ss22-team-12-la-cocina/releases/tag/v.1.0)
 
