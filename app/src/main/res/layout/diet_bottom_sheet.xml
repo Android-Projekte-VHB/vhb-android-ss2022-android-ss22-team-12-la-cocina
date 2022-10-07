@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageButton
+        android:id="@+id/close_diet_button"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:src="@drawable/ic_close"
+        android:background="@null"
+        android:layout_marginLeft="355dp"
+        android:elevation="4dp"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        tools:ignore="ContentDescription,RtlHardcoded" />
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/diet_bottom_sheet_header"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        app:cardBackgroundColor="@color/custom_green"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:id="@+id/diet_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="80dp"
+            android:layout_marginTop="16dp"
+            android:text="@string/bottom_sheet_choose_diet"
+            android:textColor="@color/white"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+        <ImageView
+            android:id="@+id/diet_icon"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:src="@drawable/ic_diet"
+            android:layout_marginTop="16dp"
+            android:layout_marginLeft="16dp"
+            tools:ignore="ContentDescription,RtlHardcoded" />
+
+
+    </androidx.cardview.widget.CardView>
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/diet_bottom_sheet_header">
+
+        <Button
+            android:id="@+id/diet_vegan_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="10dp"
+            android:backgroundTint="@color/custom_green"
+            android:text="@string/bottom_sheet_diet_vegan"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:icon="@drawable/ic_plant"
+            app:iconGravity="textStart"
+            android:theme="@style/Theme.LaCocina"
+            />
+
+        <Button
+            android:id="@+id/diet_veggie_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="80dp"
+            android:text="@string/bottom_sheet_diet_veggie"
+            android:backgroundTint="@color/custom_green"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:icon="@drawable/ic_carrot_veggie"
+            app:iconGravity="textStart"
+            android:theme="@style/Theme.LaCocina"
+            />
+
+        <Button
+            android:id="@+id/diet_meat_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="150dp"
+            android:text="@string/bottom_sheet_diet_meat"
+            android:backgroundTint="@color/custom_green"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:icon="@drawable/ic_meat"
+            app:iconGravity="textStart"
+            android:theme="@style/Theme.LaCocina"
+            />
+
+        <Button
+            android:id="@+id/diet_pesc_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="16dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginTop="220dp"
+            android:backgroundTint="@color/custom_green"
+            android:text="@string/bottom_sheet_diet_pesce"
+            android:textColor="@color/white"
+            android:textSize="16sp"
+            app:icon="@drawable/ic_fish"
+            android:theme="@style/Theme.LaCocina"
+            app:iconGravity="textStart"
+            />
+
+
+
+
+
+
+
+    </androidx.cardview.widget.CardView>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

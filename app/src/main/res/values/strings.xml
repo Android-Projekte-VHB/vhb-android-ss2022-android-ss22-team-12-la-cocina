@@ -1,0 +1,80 @@
+<resources>
+    <string name="app_name">LaCocina</string>
+    <!-- String Resources for card items in RecyclerView -->
+    <!-- Grocery List -->
+    <string name="grocery_list_name">Grocery List\'s Name</string>
+    <string name="grocery_recipe_name">Recipe Name</string>
+    <string name="content_description_grocery">Shows whether Grocery List is favourite or important</string>
+
+    <!-- String Resources for List Activities/RecyclerViews -->
+    <!-- GroceryListActivity -->
+    <string name="content_description_grocery_list_activity">Button for adding new Grocery List manually</string>
+
+    <!-- String Resources for Add/Edit Activities -->
+    <string name="hint_recipe_name_input">Recipe Name</string>
+    <!-- Add/Edit Grocery List -->
+    <string name="hint_grocery_item_input_grocery">Grocery Items</string>
+
+    <!-- Add/Edit Received Link -->
+    <string name="hint_link">Link</string>
+    <string name="hint_notes">Your Notes</string>
+
+    <!-- Add/Edit Recipe -->
+    <string name="recipe_diet">Diet</string>
+    <string name="recipe_time_number">0</string>
+    <string name="recipe_minute">Min.</string>
+    <string name="recipe_favourite">Favourite</string>
+    <string name="recipe_tutorial">Tutorial</string>
+    <string name="recipe_ingredients">Ingredients</string>
+    <string name="recipe_instruction">Instruction</string>
+    <string name="recipe_description">Description</string>
+    <string name="recipe_options">Further Options</string>
+    <string name="recipe_add_youtube_link">Add YouTube Link</string>
+
+
+    <!-- String Resources for Main Activity -->
+    <string name="custom_recipe">Custom Recipes</string>
+    <string name="recipe_links">Recipe Links</string>
+    <string name="grocery_lists">Grocery Lists</string>
+    <string name="settings">Settings</string>
+
+    <!-- String Resources for Dialogs -->
+    <!-- String Resources for Add Youtube Link Dialog -->
+    <string name="yt_dialog_input_link">Paste Link</string>
+
+    <!-- String Resources for Bottom Sheets -->
+    <string name="bottom_sheet_title">Title</string>
+    <string name="bottom_sheet_notes_hint">Your notes…</string>
+    <string name="bottom_sheet_save">Save</string>
+    <string name="bottom_sheet_view_notes">View Notes</string>
+    <string name="bottom_sheet_save_grocery_list">Save as Grocery List</string>
+    <string name="bottom_sheet_youtube_link_title">YouTube Tutorial</string>
+    <string name="bottom_sheet_delete_youtube_link">Delete YouTube Link</string>
+
+    <string name="bottom_sheet_choose_diet">Choose Diet</string>
+    <string name="bottom_sheet_diet_vegan">Vegan</string>
+    <string name="bottom_sheet_diet_veggie">Veggie</string>
+    <string name="bottom_sheet_diet_meat">Meat</string>
+    <string name="bottom_sheet_diet_pesce">Pesce</string>
+
+    <string name="bottom_sheet_note_title">Notes</string>
+    <string name="bottom_sheet_save_note">Save Note</string>
+
+    <string name="bottom_sheet_cooking_time_title">Set Cooking Time</string>
+    <string name="bottom_sheet_cooking_time_hint">Cooking Time: 0 Minutes</string>
+    <string name="bottom_sheet_set_cooking_time">Set Time</string>
+
+    <!-- String Resources for Items -->
+    <string name="item_recipe_name">Recipe Name</string>
+    <string name="item_recipe_description">Recipe Description</string>
+
+    <!-- String Resources for Menus -->
+    <string name="menu_save">Save</string>
+    <string name="menus_sort_favourite">Sort by Favourite</string>
+    <string name="menus_sort_cooking_time">Sort by Cooking Time</string>
+    <string name="menus_sort_diet">Sort by Diet</string>
+
+
+
+
+</resources>

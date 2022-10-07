@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/inner_container"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:id="@+id/recipe_image"
+        android:layout_width="match_parent"
+        android:layout_height="400dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/no_photo_hq"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <EditText
+        android:id="@+id/recipe_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="328dp"
+        android:background="@null"
+        android:elevation="4dp"
+        android:hint="@string/hint_recipe_name_input"
+        android:inputType="text"
+        android:textColor="@color/white"
+        android:textSize="30sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/recipe_image"
+        tools:ignore="Autofill" />
+
+    <ImageButton
+        android:id="@+id/diet_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:layout_marginEnd="16dp"
+        android:background="@null"
+        android:elevation="4dp"
+        android:src="@drawable/ic_plant"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/diet_button_text"
+        android:layout_width="55dp"
+        android:layout_height="wrap_content"
+
+        android:layout_marginEnd="16dp"
+        android:elevation="4dp"
+        android:gravity="center"
+        android:text="@string/recipe_diet"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/diet_button" />
+
+    <ImageButton
+        android:id="@+id/timer_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="212dp"
+        android:layout_marginEnd="16dp"
+        android:background="@null"
+        android:elevation="4dp"
+        android:src="@drawable/ic_time"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
+
+
+    <TextView
+        android:id="@+id/timer_number"
+        android:layout_width="20dp"
+        android:layout_height="wrap_content"
+        android:elevation="4dp"
+        android:gravity="center"
+        android:text="@string/recipe_time_number"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toStartOf="@+id/timer_text"
+        app:layout_constraintTop_toBottomOf="@+id/timer_button" />
+
+    <TextView
+        android:id="@+id/timer_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="16dp"
+        android:elevation="4dp"
+        android:text="@string/recipe_minute"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/timer_button" />
+
+    <ImageButton
+        android:id="@+id/favourite_button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="128dp"
+        android:layout_marginEnd="12dp"
+        android:background="@null"
+        android:elevation="4dp"
+        android:src="@drawable/ic_star_border"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/fav_button_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="10dp"
+        android:gravity="center"
+        android:text="@string/recipe_favourite"
+        android:textColor="@color/white"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/favourite_button" />
+
+    <ImageButton
+        android:id="@+id/youtube_tutorial_button"
+        android:layout_width="102dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@null"
+        android:src="@drawable/ic_youtube"
+        app:layout_constraintEnd_toStartOf="@+id/ingredients_button"
+        app:layout_constraintStart_toEndOf="@+id/description_button"
+        app:layout_constraintTop_toBottomOf="@id/recipe_image"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/description_button"
+        android:layout_width="101dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@null"
+        android:src="@drawable/ic_description"
+        app:layout_constraintEnd_toStartOf="@+id/youtube_tutorial_button"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/recipe_image"
+        tools:ignore="ContentDescription" />
+
+
+    <ImageButton
+        android:id="@+id/ingredients_button"
+        android:layout_width="101dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@null"
+        android:src="@drawable/ic_lunch"
+        app:layout_constraintEnd_toStartOf="@+id/instruction_button"
+        app:layout_constraintStart_toEndOf="@+id/youtube_tutorial_button"
+        app:layout_constraintTop_toBottomOf="@id/recipe_image"
+        tools:ignore="ContentDescription" />
+
+    <ImageButton
+        android:id="@+id/instruction_button"
+        android:layout_width="102dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:background="@null"
+        android:src="@drawable/ic_cooking"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ingredients_button"
+        app:layout_constraintTop_toBottomOf="@id/recipe_image"
+        tools:ignore="ContentDescription" />
+
+    <TextView
+        android:id="@+id/video_tutorial_button_text"
+        android:layout_width="102dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/recipe_tutorial"
+        android:textColor="@color/custom_green"
+        app:layout_constraintEnd_toStartOf="@+id/ingredients_button_text"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/description_button_text"
+        app:layout_constraintTop_toBottomOf="@+id/youtube_tutorial_button" />
+
+
+    <TextView
+        android:id="@+id/description_button_text"
+        android:layout_width="101dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/recipe_description"
+        android:textColor="@color/custom_green"
+        app:layout_constraintEnd_toStartOf="@+id/video_tutorial_button_text"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/description_button" />
+
+    <TextView
+        android:id="@+id/ingredients_button_text"
+        android:layout_width="101dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:text="@string/recipe_instruction"
+        android:textColor="@color/custom_green"
+        app:layout_constraintEnd_toStartOf="@+id/instruction_button_text"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/video_tutorial_button_text"
+        app:layout_constraintTop_toBottomOf="@+id/ingredients_button" />
+
+    <TextView
+        android:id="@+id/instruction_button_text"
+        android:layout_width="102dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/recipe_instruction"
+        android:textColor="@color/custom_green"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/ingredients_button_text"
+        app:layout_constraintTop_toBottomOf="@+id/instruction_button" />
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="48dp"
+        android:layout_marginLeft="16dp"
+        android:text="@string/recipe_options"
+        android:textColor="@color/custom_green"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/description_button_text"
+        tools:ignore="RtlHardcoded" />
+
+    <Button
+        android:id="@+id/add_yt_link_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="16dp"
+        android:layout_marginLeft="16dp"
+        android:text="@string/recipe_add_youtube_link"
+        app:icon="@drawable/ic_add_link"
+        app:iconGravity="textStart"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/share_button"
+        android:layout_width="56dp"
+        android:layout_height="56dp"
+        android:layout_marginEnd="28dp"
+        android:layout_marginBottom="48dp"
+        app:backgroundTint="@color/custom_green"
+        app:fabCustomSize="56dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/ic_share"
+        tools:ignore="ContentDescription" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+

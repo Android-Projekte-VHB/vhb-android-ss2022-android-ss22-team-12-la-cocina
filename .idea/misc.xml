@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/lucas/AndroidStudioProjects/LaCocina/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.216" />
+        <entry key="..\:/Users/lucas/AndroidStudioProjects/LaCocina/app/src/main/res/drawable/ic_add_yt_link.xml" value="0.1245" />
+        <entry key="..\:/Users/lucas/AndroidStudioProjects/LaCocina/app/src/main/res/drawable/ic_baseline_link_50.xml" value="0.1245" />
+        <entry key="..\:/Users/lucas/AndroidStudioProjects/LaCocina/app/src/main/res/drawable/ic_baseline_note_alt_50.xml" value="0.1245" />
+        <entry key="..\:/Users/lucas/AndroidStudioProjects/LaCocina/app/src/main/res/drawable/ic_carrot_veggie.xml" value="0.216" />
+        <entry key="..\:/Users/lucas/AndroidStudioProjects/LaCocina/app/src/main/res/drawable/ic_close.xml" value="0.2135" />
+        <entry key="..\:/Users/lucas/AndroidStudioProjects/LaCocina/app/src/main/res/drawable/ic_cooking.xml" value="0.216" />
+        <entry key="..\:/Users/lucas/AndroidStudioProjects/LaCocina/app/src/main/res/drawable/ic_delete.xml" value="0.1735" />
+        <entry key="..\:/Users/lucas/AndroidStudioProjects/LaCocina/app/src/main/res/drawable/ic_description.xml" value="0.1245" />
+        <entry key="..\:/Users/lucas/AndroidStudioProjects/LaCocina/app/src/main/res/drawable/ic_diet.xml" value="0.216" />
+        <entry key="..\:/Users/lucas/AndroidStudioProjects/LaCocina/app/src/main/res/drawable/ic_fav_star.xml" value="0.1" />
+        <entry key="..\:/Users/lucas/AndroidStudioProjects/LaCocina/app/src/main/res/drawable/ic_fish.xml" value="0.216" />
+        <entry key="..\:/Users/lucas/AndroidStudioProjects/LaCocina/app/src/main/res/drawable/ic_fish_viewholder.xml" value="0.124" />
+        <entry key="..\:/Users/lucas/AndroidStudioProjects/LaCocina/app/src/main/res/drawable/ic_grocery_trolley.xml" value="0.1245" />
+        <entry key="..\:/Users/lucas/AndroidStudioProjects/LaCocina/app/src/main/res/drawable/ic_launcher_background.xml" value="0.216" />
+        <entry key="..\:/Users/lucas/AndroidStudioProjects/LaCocina/app/src/main/res/drawable/ic_link_50_green.xml" value="0.1245" />
+        <entry key="..\:/Users/lucas/AndroidStudioProjects/LaCocina/app/src/main/res/drawable/ic_lunch.xml" value="0.216" />
+        <entry key="..\:/Users/lucas/AndroidStudioProjects/LaCocina/app/src/main/res/drawable/ic_meat.xml" value="0.216" />
+        <entry key="..\:/Users/lucas/AndroidStudioProjects/LaCocina/app/src/main/res/drawable/ic_meat_viewholder.xml" value="0.124" />
+        <entry key="..\:/Users/lucas/AndroidStudioProjects/LaCocina/app/src/main/res/drawable/ic_note.xml" value="0.216" />
+        <entry key="..\:/Users/lucas/AndroidStudioProjects/LaCocina/app/src/main/res/drawable/ic_note_green.xml" value="0.216" />
+        <entry key="..\:/Users/lucas/AndroidStudioProjects/LaCocina/app/src/main/res/drawable/ic_plant.xml" value="0.1235" />
+        <entry key="..\:/Users/lucas/AndroidStudioProjects/LaCocina/app/src/main/res/drawable/ic_recipes.xml" value="0.1245" />
+        <entry key="..\:/Users/lucas/AndroidStudioProjects/LaCocina/app/src/main/res/drawable/ic_save.xml" value="0.216" />
+        <entry key="..\:/Users/lucas/AndroidStudioProjects/LaCocina/app/src/main/res/drawable/ic_settings.xml" value="0.1245" />
+        <entry key="..\:/Users/lucas/AndroidStudioProjects/LaCocina/app/src/main/res/drawable/ic_share.xml" value="0.1245" />
+        <entry key="..\:/Users/lucas/AndroidStudioProjects/LaCocina/app/src/main/res/drawable/ic_star.xml" value="0.1225" />
+        <entry key="..\:/Users/lucas/AndroidStudioProjects/LaCocina/app/src/main/res/drawable/ic_star_50.xml" value="0.1245" />
+        <entry key="..\:/Users/lucas/AndroidStudioProjects/LaCocina/app/src/main/res/drawable/ic_star_50_green.xml" value="0.1245" />
+        <entry key="..\:/Users/lucas/AndroidStudioProjects/LaCocina/app/src/main/res/drawable/ic_star_border.xml" value="0.216" />
+        <entry key="..\:/Users/lucas/AndroidStudioProjects/LaCocina/app/src/main/res/drawable/ic_star_border_50.xml" value="0.1245" />
+        <entry key="..\:/Users/lucas/AndroidStudioProjects/LaCocina/app/src/main/res/drawable/ic_time.xml" value="0.216" />
+        <entry key="..\:/Users/lucas/AndroidStudioProjects/LaCocina/app/src/main/res/drawable/ic_veggie_viewholder.xml" value="0.124" />
+        <entry key="..\:/Users/lucas/AndroidStudioProjects/LaCocina/app/src/main/res/drawable/ic_video.xml" value="0.1245" />
+        <entry key="..\:/Users/lucas/AndroidStudioProjects/LaCocina/app/src/main/res/drawable/ic_youtube.xml" value="0.216" />
+        <entry key="..\:/Users/lucas/AndroidStudioProjects/LaCocina/app/src/main/res/drawable/ic_youtube_white.xml" value="0.1735" />
+        <entry key="..\:/Users/lucas/AndroidStudioProjects/LaCocina/app/src/main/res/drawable/no_photo.xml" value="0.1225" />
+        <entry key="..\:/Users/lucas/AndroidStudioProjects/LaCocina/app/src/main/res/layout/activity_add_grocery_list.xml" value="0.4" />
+        <entry key="..\:/Users/lucas/AndroidStudioProjects/LaCocina/app/src/main/res/layout/activity_grocery_list.xml" value="0.264" />
+        <entry key="..\:/Users/lucas/AndroidStudioProjects/LaCocina/app/src/main/res/layout/activity_main.xml" value="0.3676222596964587" />
+        <entry key="..\:/Users/lucas/AndroidStudioProjects/LaCocina/app/src/main/res/layout/activity_receive_link.xml" value="0.264" />
+        <entry key="..\:/Users/lucas/AndroidStudioProjects/LaCocina/app/src/main/res/layout/activity_recipe.xml" value="0.2642857142857143" />
+        <entry key="..\:/Users/lucas/AndroidStudioProjects/LaCocina/app/src/main/res/layout/activity_recipe_link_list.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/lucas/AndroidStudioProjects/LaCocina/app/src/main/res/layout/activity_recipe_link_list2.xml" value="0.115625" />
+        <entry key="..\:/Users/lucas/AndroidStudioProjects/LaCocina/app/src/main/res/layout/activity_recipe_list.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/lucas/AndroidStudioProjects/LaCocina/app/src/main/res/layout/add_video_dialog.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/lucas/AndroidStudioProjects/LaCocina/app/src/main/res/layout/bottom_sheet_layout.xml" value="0.264" />
+        <entry key="..\:/Users/lucas/AndroidStudioProjects/LaCocina/app/src/main/res/layout/bottom_sheet_video_layout.xml" value="0.5207612456747405" />
+        <entry key="..\:/Users/lucas/AndroidStudioProjects/LaCocina/app/src/main/res/layout/dialog_layout.xml" value="0.11302083333333333" />
+        <entry key="..\:/Users/lucas/AndroidStudioProjects/LaCocina/app/src/main/res/layout/diet_bottom_sheet.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/lucas/AndroidStudioProjects/LaCocina/app/src/main/res/layout/fragment_video.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/lucas/AndroidStudioProjects/LaCocina/app/src/main/res/layout/grocery_list_item.xml" value="0.264" />
+        <entry key="..\:/Users/lucas/AndroidStudioProjects/LaCocina/app/src/main/res/layout/layout_dialog.xml" value="0.115625" />
+        <entry key="..\:/Users/lucas/AndroidStudioProjects/LaCocina/app/src/main/res/layout/note_bottom_sheet_layout.xml" value="0.4" />
+        <entry key="..\:/Users/lucas/AndroidStudioProjects/LaCocina/app/src/main/res/layout/recipe_description_fragment.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/lucas/AndroidStudioProjects/LaCocina/app/src/main/res/layout/recipe_fragment.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/lucas/AndroidStudioProjects/LaCocina/app/src/main/res/layout/recipe_ingredients_fragment.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/lucas/AndroidStudioProjects/LaCocina/app/src/main/res/layout/recipe_instruction_fragment.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/lucas/AndroidStudioProjects/LaCocina/app/src/main/res/layout/recipe_item.xml" value="0.536" />
+        <entry key="..\:/Users/lucas/AndroidStudioProjects/LaCocina/app/src/main/res/layout/recipe_link_item.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/lucas/AndroidStudioProjects/LaCocina/app/src/main/res/layout/recipe_video_fragment.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/lucas/AndroidStudioProjects/LaCocina/app/src/main/res/layout/time_bottom_sheet.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/lucas/AndroidStudioProjects/LaCocina/app/src/main/res/menu/add_grocery_list_menu.xml" value="0.115625" />
+        <entry key="..\:/Users/lucas/AndroidStudioProjects/LaCocina/app/src/main/res/menu/add_recipe_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/lucas/AndroidStudioProjects/LaCocina/app/src/main/res/menu/list_recipe_menu.xml" value="0.25416666666666665" />
+        <entry key="..\:/Users/lucas/AndroidStudioProjects/LaCocina/app/src/main/res/mipmap-anydpi-v26/ic_launcher.xml" value="0.1225" />
+        <entry key="..\:/Users/lucas/AndroidStudioProjects/LaCocina/app/src/main/res/mipmap-anydpi-v26/ic_launcher_round.xml" value="0.1225" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

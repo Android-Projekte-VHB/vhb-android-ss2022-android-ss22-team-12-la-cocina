@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    
+    <item
+        android:id="@+id/sort_fav"
+        android:title="@string/menus_sort_favourite"
+        app:showAsAction="never" />
+    <item
+        android:id="@+id/sort_cooking_time"
+        android:title="@string/menus_sort_cooking_time"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/sort_diet"
+        android:title="@string/menus_sort_diet"
+        android:width="200dp"
+        app:showAsAction="never">
+
+        <menu>
+
+            <item
+                android:id="@+id/vegan_sort"
+                android:title="@string/bottom_sheet_diet_vegan"
+                android:icon="@drawable/ic_vegan_viewholder"/>
+
+            <item
+                android:id="@+id/veggie_sort"
+                android:title="@string/bottom_sheet_diet_veggie"
+                android:icon="@drawable/ic_veggie_viewholder"/>
+
+            <item
+                android:id="@+id/meat_sort"
+                android:title="@string/bottom_sheet_diet_meat"
+                android:icon="@drawable/ic_meat_viewholder"/>
+
+            <item
+                android:id="@+id/pesce_sort"
+                android:title="@string/bottom_sheet_diet_pesce"
+                android:icon="@drawable/ic_fish_viewholder"/>
+
+        </menu>
+
+    </item>
+
+
+
+
+
+
+</menu>
