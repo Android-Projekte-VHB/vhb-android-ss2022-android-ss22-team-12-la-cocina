@@ -2,7 +2,7 @@
 
 # Lucas Müller
 - Email: lucas.mueller@stud.uni-regensburg.de
-- Github: @gustavzudemm
+- Github: [@gustavzudemm](https://github.com/gustavzudemm)
 
 # Julius Windloff
 - Email: julius.windloff@stud.uni-regensburg.de
