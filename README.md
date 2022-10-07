@@ -28,3 +28,10 @@ Die Ziele die wir uns zu Beginn der Entwicklung gesetzt haben wurden im Großen 
 
 Erst im Späteren Verlauf der Entwicklung entschieden wir uns Einkaufslisten hinzuzufügen, weil diese als sinnvolle Ergänzung erschien, da die App ja als Informationsquelle für Rezepte dient.
 
+## Übersicht über weitere Dokumente
+
+- [_User Guide_ zur App](App.md)
+- [Das Team](Team.md)
+- [Link zum Trailer](https://youtu.be/o_O8NLgfDqY)
+- [APK-Datei der fertigen Version]()
+
