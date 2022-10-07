@@ -1,10 +1,10 @@
 ## Das Team
 
-## Lucas Müller
-## Email: lucas.mueller@stud.uni-regensburg.de
+# Lucas Müller
+- Email: lucas.mueller@stud.uni-regensburg.de
 
-## Julius Windloff
-## Email: julius.windloff@stud.uni-regensburg.de
+# Julius Windloff
+- Email: julius.windloff@stud.uni-regensburg.de
 
 ## Erledigte Aufgaben: Lucas Müller
 
